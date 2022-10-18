@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- * main - print putchar
- *
- * Return: 0 always
+ * main - print _putchar
+ * is written by moses
+ * Return: 0
  */
 
 int main(void)
