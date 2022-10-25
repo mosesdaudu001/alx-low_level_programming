@@ -9,12 +9,8 @@
 
 void _puts(char *str)
 {
-	int i = 0;
+	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	_puts(str);
 
-	while (str[i] != '\0')
-	{
-		_puts(str[i]);
-		i++;
-	}
-	_putchar('\n');
+	return (0);
 }
